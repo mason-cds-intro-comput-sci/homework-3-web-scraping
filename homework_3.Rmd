@@ -1,0 +1,131 @@
+---
+title: "Homework 3"
+author: "FirstName LastName"
+date: "`r Sys.Date()`"
+documentclass: article
+geometry: margin=1in
+fontsize: 11pt
+---
+
+```{r setup, include = FALSE}
+# DO NOT ALTER THIS CHUNK
+# Set knitr options
+knitr::opts_chunk$set(
+  echo = TRUE,
+  eval = TRUE,
+  cache = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.width = 5,
+  fig.asp = 0.618,
+  fig.align = "center",
+  out.width = "80%",
+  dpi = 120
+)
+# Load required packages
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(rvest))
+```
+
+## Scraping men's basketball schedule and scores
+
+### Question 1
+
+<!-- Put code to fetch and save the HTML for the men's basketball schedule and scores in the code block below -->
+
+```{r fetch-and-save-mens-bb-schedule-html, eval = FALSE}
+
+```
+
+<!-- Put code to read the saved HTML file in the code block below -->
+
+```{r read-mens-bb-schedule-html}
+
+```
+
+### Question 2
+
+```{r}
+
+```
+
+
+### Question 3
+
+```{r}
+
+```
+
+
+### Question 4
+
+```{r}
+
+```
+
+
+### Question 5
+
+```{r}
+
+```
+
+
+### Question 6
+
+```{r}
+
+```
+
+
+### Question 7
+
+```{r}
+
+```
+
+
+### Question 8
+
+```{r}
+
+```
+
+
+## Scraping women's basketball schedule and scores
+
+### Question 9
+
+<!-- Put code to fetch and save the HTML for the women's basketball schedule and scores in the code block below -->
+
+```{r fetch-and-save-womens-bb-schedule-html, eval = FALSE}
+
+```
+
+<!-- Put code to read the saved HTML file in the code block below -->
+
+```{r read-womens-bb-schedule-html}
+
+```
+
+<!-- Put rest of web scraping code below this line -->
+
+```{r}
+
+```
+
+
+## Data exploration
+
+### Question 10
+
+```{r}
+
+```
+
+
+### Question 11
+
+```{r}
+
+```
