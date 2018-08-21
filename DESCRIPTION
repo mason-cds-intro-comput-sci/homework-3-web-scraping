@@ -1,0 +1,6 @@
+Title: CDS 101 Web Scraping Homework
+Depends:
+  R (>= 3.5)
+Imports:
+  tidyverse,
+  rvest
